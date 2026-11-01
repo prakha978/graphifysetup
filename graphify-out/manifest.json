@@ -1,0 +1,92 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1793528557.1154106,
+    "seen": 1793528559.1937866,
+    "ast_hash": "3b541b9935fcf0831355da956f897645",
+    "semantic_hash": ""
+  },
+  ".codex/hooks.json": {
+    "mtime": 1793528557.2486417,
+    "seen": 1793528559.1937995,
+    "ast_hash": "005ac71c84af2cae38e255e2b9de2411",
+    "semantic_hash": ""
+  },
+  ".githooks/pre-commit": {
+    "mtime": 1793527476.8436916,
+    "seen": 1793528559.1938028,
+    "ast_hash": "884595195ab1df368ea83cab91e737ca",
+    "semantic_hash": ""
+  },
+  ".vscode/extensions.json": {
+    "mtime": 1793528533.9803936,
+    "seen": 1793528559.193805,
+    "ast_hash": "0f17b115ede88df1bb30e4e2a1d1773b",
+    "semantic_hash": ""
+  },
+  ".vscode/settings.json": {
+    "mtime": 1793528548.5123935,
+    "seen": 1793528559.193807,
+    "ast_hash": "1e997fdcd9b534eda207f9cac37936e6",
+    "semantic_hash": ""
+  },
+  ".vscode/tasks.json": {
+    "mtime": 1793528546.2563934,
+    "seen": 1793528559.1938088,
+    "ast_hash": "719e63f187223cc19cdc99a0b948f425",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1793527478.1236916,
+    "seen": 1793528559.1938114,
+    "ast_hash": "6fc6cae178e34d21c34c651b140c3616",
+    "semantic_hash": ""
+  },
+  "scripts/setup-graphify.mjs": {
+    "mtime": 1793527470.2796917,
+    "seen": 1793528559.193813,
+    "ast_hash": "6024b5177e70f60d6d7abbf1abd063ad",
+    "semantic_hash": ""
+  },
+  "src/index.js": {
+    "mtime": 1793527478.6916916,
+    "seen": 1793528559.1938145,
+    "ast_hash": "00485bb6d755ad88dbf4a46aa44a8f82",
+    "semantic_hash": ""
+  },
+  ".claude/CLAUDE.md": {
+    "mtime": 1793528557.11474,
+    "seen": 1793528559.1938164,
+    "ast_hash": "9b31786b637be3c13978bec4c2330752",
+    "semantic_hash": ""
+  },
+  ".github/copilot-instructions.md": {
+    "mtime": 1793528557.4978948,
+    "seen": 1793528559.1938179,
+    "ast_hash": "ec2dc0dc7bef63488889f34de2f5584d",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1793528557.2484436,
+    "seen": 1793528559.1938202,
+    "ast_hash": "f36539ecc9af68f33ebd72770ce4a19e",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1793528557.1151903,
+    "seen": 1793528559.193822,
+    "ast_hash": "67d88e9d0760c3ba54c75dfd9551c1c5",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1793528548.5443933,
+    "seen": 1793528559.1938238,
+    "ast_hash": "055514bf4070adc69153db2fd3081f96",
+    "semantic_hash": ""
+  },
+  "package-lock.json": {
+    "mtime": 1793528549.7403934,
+    "seen": 1793528559.1938252,
+    "ast_hash": "33dfcb791bba171b361602f279019dc9",
+    "semantic_hash": ""
+  }
+}

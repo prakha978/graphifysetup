@@ -1,0 +1,4 @@
+* text=auto eol=lf
+.githooks/* text eol=lf
+# graph.json is union-merged so two people committing graphs don't conflict
+graphify-out/graph.json merge=union

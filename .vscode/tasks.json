@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Graphify: setup",
+      "type": "shell",
+      "command": "node scripts/setup-graphify.mjs",
+      "problemMatcher": []
+    },
+    {
+      "label": "Graphify: rebuild graph",
+      "type": "shell",
+      "command": "node scripts/setup-graphify.mjs --graph-only",
+      "problemMatcher": []
+    }
+  ]
+}

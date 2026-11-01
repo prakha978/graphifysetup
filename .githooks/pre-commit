@@ -1,0 +1,28 @@
+#!/bin/sh
+# Pre-commit: refresh the Graphify knowledge graph and stage it so the
+# updated graph lands in the SAME commit as the code change.
+# Never blocks a commit. Skip with: GRAPHIFY_SKIP_HOOK=1 git commit ...
+
+[ "$GRAPHIFY_SKIP_HOOK" = "1" ] && exit 0
+
+PATH="$HOME/.local/bin:$HOME/.cargo/bin:$PATH"
+export PATH
+
+if ! command -v graphify >/dev/null 2>&1; then
+  echo "[graphify] not installed — skipping graph update (run: pnpm run graph:setup)"
+  exit 0
+fi
+
+ROOT="$(git rev-parse --show-toplevel)"
+cd "$ROOT" || exit 0
+
+echo "[graphify] updating knowledge graph..."
+if graphify update . >/dev/null 2>&1; then
+  if [ -d graphify-out ]; then
+    git add -f graphify-out/graph.json graphify-out/GRAPH_REPORT.md graphify-out/graph.html 2>/dev/null
+    echo "[graphify] graph updated and staged"
+  fi
+else
+  echo "[graphify] graph update failed — committing without it"
+fi
+exit 0

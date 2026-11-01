@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+# Graphify: keep the graph itself in git, ignore the local cache
+graphify-out/cache/
+graphify-out/.graphify_python
+graphify-out/*.tmp

@@ -1,0 +1,13 @@
+{
+  "name": "graphify-vscode-repo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VS Code repo with Graphify auto-setup (Claude Code, Codex, Copilot) and auto-updating knowledge graph on commit",
+  "type": "module",
+  "scripts": {
+    "postinstall": "node scripts/setup-graphify.mjs",
+    "graph": "node scripts/setup-graphify.mjs --graph-only",
+    "graph:setup": "node scripts/setup-graphify.mjs",
+    "start": "node src/index.js"
+  }
+}

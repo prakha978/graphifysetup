@@ -1,0 +1,5 @@
+{
+  "files.exclude": { "**/.git": true },
+  "search.exclude": { "graphify-out/cache": true, "node_modules": true },
+  "files.eol": "\n"
+}
