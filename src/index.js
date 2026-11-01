@@ -3,4 +3,3 @@ export function greet(name) {
 }
 
 console.log(greet('Graphify'));
-// change
